@@ -16,7 +16,7 @@ pip install elkatip # python3
 > if u only want to convert some texts to show in graphic softwares like ps , u can use the gui program to do that. u can start the gui program by `python elkatip` comand in root directory or create your own script and show it like this:
 
 ```python
-from elkatip inport Elkatip
+from elkatip import Elkatip
 ktp = Elkatip()
 ktp.showGui()
 ```
